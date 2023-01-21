@@ -23,7 +23,7 @@ addEventListener('fetch', event => {
 	})
   }
 
-  const FORM_URL = "https://course-tracker-70h.pages.dev/"
+  const FORM_URL = "https://google.com"
 
   async function handleRequest(request) {
 	const url = new URL(request.url)

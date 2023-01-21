@@ -35,7 +35,7 @@ export default function CourseForm({ courseAdded }) {
                 <form className="" 
                 onSubmit={submitCourse}
                 action="https://worker.charlesikilo.workers.dev"
-                method='POST' >
+                method="POST" >
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
                         <input
