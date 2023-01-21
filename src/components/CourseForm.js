@@ -33,7 +33,6 @@ export default function CourseForm({ courseAdded }) {
             <div className="card-header">Add a New Course</div>
             <div className="card-body">
                 <form className="" 
-                onSubmit={submitCourse}
                 action="https://worker.charlesikilo.workers.dev"
                 method="POST" >
                     <div className="form-group">
