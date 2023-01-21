@@ -55,7 +55,7 @@ addEventListener('fetch', event => {
 		fields: {
 		  "Course Name": name,
 		  "Course Link": link,
-		  "Tag": tag,
+		  "Course Tag": tag,
 		}
 	  }
 	
