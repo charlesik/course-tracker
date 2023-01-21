@@ -43,6 +43,7 @@ export default function CourseForm({ courseAdded }) {
                             value={name}
                             className="form-control"
                             onChange={(e) => setName(e.target.value)}
+                            required
                         />
                     </div>
                     <div className="form-group">
@@ -53,6 +54,7 @@ export default function CourseForm({ courseAdded }) {
                             value={link}
                             className="form-control"
                             onChange={(e) => setLink(e.target.value)}
+                            required
                         />
                     </div>
                     <div className="form-group">
