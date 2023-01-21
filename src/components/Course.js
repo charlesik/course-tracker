@@ -3,7 +3,7 @@ import React from 'react'
 const Course = ({ course, refreshCourses }) => {
     const markCoursePurchased = async () => {
         try {
-            await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(AIRTABLE_TABLE_NAME)}`, {
+            await fetch('/.netlify/functions/courses', {
                 method: 'PUT',
                 body: JSON.stringify({ ...course, purchased: true }),
             });
