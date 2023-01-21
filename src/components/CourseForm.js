@@ -36,7 +36,7 @@ export default function CourseForm({ courseAdded }) {
                 action="https://worker.charlesikilo.workers.dev/submit"
                 method="POST" >
                     <div className="form-group">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Na</label>
                         <input
                             type="text"
                             name="name"
