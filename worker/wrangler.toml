@@ -1,0 +1,8 @@
+name = "worker"
+main = "src/index.js"
+compatibility_date = "2023-01-21"
+account_id = "2c3d87be149417c6dba1d194247533ba"
+
+[vars]
+AIRTABLE_BASE_ID = "appJhF3bEb2M8jMAd"
+AIRTABLE_TABLE_NAME = "Form Submissions"

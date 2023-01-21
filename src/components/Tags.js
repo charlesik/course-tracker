@@ -30,6 +30,7 @@ const Tags = ({ tagsUpdated, key }) => {
                 <label className="checkbox-inline mr-3" key={index}>
                     <input
                         type="checkbox"
+                        name='tag'
                         value={choice}
                         onChange={tagChange}
                     />

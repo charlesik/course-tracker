@@ -34,7 +34,7 @@ export default function CourseForm({ courseAdded }) {
             <div className="card-body">
                 <form className="" 
                 onSubmit={submitCourse}
-                action="https://airtable-proxy.charlesikilo.workers.dev/submit"
+                action="https://worker.charlesikilo.workers.dev"
                 method='POST' >
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
